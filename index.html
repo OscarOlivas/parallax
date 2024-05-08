@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paralax</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav>
+        <div id="logo"></div>
+
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="slider">
+        <div id="content-images-slider">
+            <div class="image-slider rellax" data-rellax-speed="-10" style='background-image: url(img/fondo1.png)'></div>
+            <div class="image-slider rellax" data-rellax-speed="-6" style='background-image: url(img/fondo2.png)'></div>
+            <div class="text-slider rellax" data-rellax-speed="-10">
+                <h1 id='slider-text'>PARALLAX</h1>
+            </div>
+            <div class="image-slider rellax" data-rellax-speed="-4" style='background-image: url(img/estrellas.png)'></div>
+            <div class="image-slider" style='background-image: url(img/luna.png)'></div>
+        </div>
+    </section>
+
+    <section id="content"></section>
+    
+    <script src='rellax.min.js'></script>
+    <script src='app.js'></script>
+</body>
+</html>
